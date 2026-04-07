@@ -145,7 +145,7 @@ ul { list-style: none; }
     height: 40px;
     width: auto;
     object-fit: contain;
-    filter: brightness(0) invert(1);
+    /* logo is already white on transparent */
     transition: opacity .2s;
 }
 
@@ -158,14 +158,14 @@ ul { list-style: none; }
     max-width: 600px;
     width: 90%;
     margin: 0 auto 32px;
-    filter: brightness(0) invert(1);
+    /* logo is already white on transparent */
 }
 
 .footer-logo-img {
     height: 48px;
     width: auto;
     object-fit: contain;
-    filter: brightness(0) invert(1);
+    /* logo is already white on transparent */
 }
 
 .logo-e {
