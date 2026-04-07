@@ -141,6 +141,33 @@ ul { list-style: none; }
     letter-spacing: -.02em;
 }
 
+.nav-logo-img {
+    height: 40px;
+    width: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    transition: opacity .2s;
+}
+
+.nav-logo-img:hover {
+    opacity: .85;
+}
+
+.hero-logo {
+    display: block;
+    max-width: 400px;
+    width: 80%;
+    margin: 0 auto 24px;
+    filter: brightness(0) invert(1);
+}
+
+.footer-logo-img {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+}
+
 .logo-e {
     color: var(--primary-light);
 }
